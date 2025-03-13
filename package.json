@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-mcp-server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol server for MongoDB integration with Claude",
+  "main": "mongo-mcp-server.js",
+  "scripts": {
+    "start": "node mongo-mcp-server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "claude",
+    "mcp",
+    "ai",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "mongodb": "^5.7.0"
+  }
+}
